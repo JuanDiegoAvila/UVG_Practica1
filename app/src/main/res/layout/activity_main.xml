@@ -13,7 +13,416 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+    </androidx.appcompat.widget.SearchView>
+
+    <HorizontalScrollView
+        android:id="@+id/flags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchNews"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageButton
+                android:id="@+id/argentina"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/argentina" />
+
+            <ImageButton
+                android:id="@+id/greece"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/grecia" />
+
+            <ImageButton
+                android:id="@+id/netherlands"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/netherlands" />
+
+            <ImageButton
+                android:id="@+id/southafrica"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/southafrica" />
+
+            <ImageButton
+                android:id="@+id/australia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/australia" />
+
+            <ImageButton
+                android:id="@+id/hongkong"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hongkong" />
+
+            <ImageButton
+                android:id="@+id/newzealand"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/newzealand" />
+
+            <ImageButton
+                android:id="@+id/southkorea"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/southkorea" />
+
+            <ImageButton
+                android:id="@+id/austria"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/austria" />
+
+            <ImageButton
+                android:id="@+id/hungary"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hungary" />
+
+            <ImageButton
+                android:id="@+id/nigeria"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nigeria" />
+
+            <ImageButton
+                android:id="@+id/sweden"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sweden" />
+
+            <ImageButton
+                android:id="@+id/belgium"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/belgium" />
+
+            <ImageButton
+                android:id="@+id/india"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/india" />
+
+            <ImageButton
+                android:id="@+id/norway"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/norway" />
+
+            <ImageButton
+                android:id="@+id/switzerland"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/switzerland" />
+
+            <ImageButton
+                android:id="@+id/brazil"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/brazil" />
+
+            <ImageButton
+                android:id="@+id/indonesia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/indonesia" />
+
+            <ImageButton
+                android:id="@+id/philippines"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/philippines" />
+
+            <ImageButton
+                android:id="@+id/taiwan"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/taiwan" />
+
+            <ImageButton
+                android:id="@+id/bulgaria"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bulgaria" />
+
+            <ImageButton
+                android:id="@+id/ireland"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ireland" />
+
+            <ImageButton
+                android:id="@+id/poland"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poland" />
+
+            <ImageButton
+                android:id="@+id/thailand"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/thailand" />
+
+            <ImageButton
+                android:id="@+id/canada"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/canada" />
+
+            <ImageButton
+                android:id="@+id/israel"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/israel" />
+
+            <ImageButton
+                android:id="@+id/portugal"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/portugal" />
+
+            <ImageButton
+                android:id="@+id/turkey"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/turkey" />
+
+            <ImageButton
+                android:id="@+id/china"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/china" />
+
+            <ImageButton
+                android:id="@+id/italy"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/italy" />
+
+            <ImageButton
+                android:id="@+id/romania"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/romania" />
+
+            <ImageButton
+                android:id="@+id/uae"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/uae" />
+
+            <ImageButton
+                android:id="@+id/colombia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/colombia" />
+
+            <ImageButton
+                android:id="@+id/japan"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/japan" />
+
+            <ImageButton
+                android:id="@+id/russia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/russia" />
+
+            <ImageButton
+                android:id="@+id/ukraine"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ukraine" />
+
+            <ImageButton
+                android:id="@+id/cuba"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cuba" />
+
+            <ImageButton
+                android:id="@+id/latvia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/latvia" />
+
+            <ImageButton
+                android:id="@+id/saudiarabia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/saudiarabia" />
+
+            <ImageButton
+                android:id="@+id/unitedkingdom"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/uk" />
+
+            <ImageButton
+                android:id="@+id/czechrepublic"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/czech" />
+
+            <ImageButton
+                android:id="@+id/lithuania"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lithuania" />
+
+            <ImageButton
+                android:id="@+id/serbia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/serbia" />
+
+            <ImageButton
+                android:id="@+id/unitedstates"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/uk" />
+
+            <ImageButton
+                android:id="@+id/egypt"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/egypt" />
+
+            <ImageButton
+                android:id="@+id/malaysia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/malaysia" />
+
+            <ImageButton
+                android:id="@+id/singapore"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/syngapore" />
+
+            <ImageButton
+                android:id="@+id/venezuela"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/venezuela" />
+
+            <ImageButton
+                android:id="@+id/france"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/france" />
+
+            <ImageButton
+                android:id="@+id/mexico"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mexico" />
+
+            <ImageButton
+                android:id="@+id/slovakia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slovakia" />
+
+            <ImageButton
+                android:id="@+id/germany"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/germany" />
+
+            <ImageButton
+                android:id="@+id/morocco"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/morocco" />
+
+            <ImageButton
+                android:id="@+id/slovenia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slovenia" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvNews"
@@ -21,7 +430,11 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchNews" />
+        app:layout_constraintTop_toBottomOf="@+id/flags"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
